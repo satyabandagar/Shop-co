@@ -14,18 +14,18 @@ function Hender() {
         <button><IconX stroke={2} /></button>
       </div>
 
-      <div className="flex justify-around w-full bg-amber-200">
-        <div className="text-black flex pl-2 gap-4">
-            <a href="" className="font-bold">SHOP.CO</a>
+      <div className="flex gap-25 w-full h-10 items-center pl-30">
+        <div className="text-black flex pl-2 gap-6 items-center">
+            <a href="" className="font-bold text-3xl">SHOP.CO</a>
             <a href="" className="flex">Shop <IconChevronDown/></a>
             <a href="">On Slae</a>
             <a href="">New Arrivals</a>
             <a href="">Brands</a>
         </div>
-        <div className="flex pl-10">
-            <div className="flex">  
-                    <IconSearch/>          
-                    <input type="text" placeholder="Search for product..." />
+        <div className="flex pl-10 w-170 h-full items-center ">
+            <div className="flex items-center gap-5">  
+                    <IconSearch className="relative left-13"/>          
+                    <input className="h-9 border-0 w-120 p-2 pl-10 " type="text" placeholder="Search for product..." />
                     <IconUserCircle/>
                     <IconGardenCart />
             </div>
